@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Gruppo&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*font-family: 'Audiowide', cursive;
+font-family: 'Gruppo', cursive;*/
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Eudoxus Sans", sans-serif;
+  font-family: 'Eudoxus Sans', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -31,6 +35,14 @@
     #34acc7 53.65%,
     #a134c7 100%
   );
+}
+
+.hero-img{
+  background-image: url("https://i.ibb.co/gt9T97T/hero.png");
+  height: 50vh;
+  background-size: cover;
+  background-position: right;
+  
 }
 
 .gradient-02 {
